@@ -1,0 +1,41 @@
+#mainDiv{
+    
+}
+#welcomeDiv{
+    background-image: url('../photo-1533035336122-4327d347d2fe.jpg');
+    height: 45vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size:100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+
+}
+#welcomeText{
+    position: absolute;
+    top: 20vw;
+    left: 33vw;
+    
+}
+#trashIcon{
+    position: absolute;
+    left: 18vw;
+    bottom: 3.7vw;
+}
+#noteDiv{
+    position: absolute;
+    left: 40vw;
+    top:7vw;
+    border: solid;
+    
+}
+#postedNotes{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 40vw;
+}
+#postButton{
+    margin-left: 3.4vw;
+}
